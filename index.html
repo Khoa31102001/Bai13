@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Le Gia Anh Khoa</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1 style="font-weight: 520; font-size: 20px;">Form Validation</h1>
+            <div class="header">
+                <p style="display: inline; color: #b6b4b4; ">Validation of the
+                    form
+                    is made using powerful validator plugin
+                    for bootstrap. </p><a href="">Learn more about Bootstrap
+                    Validator</a>
+            </div>
+
+            <hr style="opacity: 0.2;">
+            <form action="" class="account">
+                <div class="email-password">
+                    <label for="" style="display: block;" style="font-size:
+                        0.5rem;">Email address</label>
+                    <input class="red-input" type="text"" placeholder="Enter email">
+                    <p style="display: block;">Your email address is invalid</p>
+                    <div class="email-password-container">
+                        <div class="email-password-item" style="flex: 1;">
+                            <label for="" style="display: block;">Password</label>
+                            <input type="text" placeholder="Enter password">
+                            <p>Minium of 6 charaters</p>
+                        </div>
+                        <div class="email-password-item" style="flex: 1;">
+                            <label for="" style="display: block;">Confirm
+                                Password</label>
+                            <input type="text" placeholder="Confirm password">
+                            <p>Please fill out this field</p>
+                        </div>
+                    </div>
+
+                </div>
+                <label for="" style="display: block;">Regular select</label>
+                <select name="" id="" style="width: 100%; padding: 5px 5px;
+                    border: 0.5px solid rgb(21, 66, 117, 0.5); border-radius:
+                    4px;">
+                    <option value="">New York</option>
+                    <option value="">London</option>
+                </select>
+                <div class="multi-select" style="padding: 20px 0;">
+                    <label for="" style="line-height: 30px;">Multiselect</label>
+                    <div class="multi-item">
+                        <p style="background-color: #d4e7fc;"><span
+                                style="font-weight: 900;">x</span> New York</p>
+                        <p style="background-color: #d4e7fc;"><span
+                                style="font-weight: 900;">x</span> California</p>
+                    </div>
+                    <div class="multi-item-2">
+                    </div>
+                </div>
+
+                <div class="section">
+                    <p style="color: #4377b4; font-weight: 700; padding-right:
+                        8px;"> Section
+                        Example</p>
+                    <hr style="flex: 1;
+                        height: 1px;
+                        margin: auto;
+                        border: 0.5px solid #154275; opacity: 0.2;">
+                </div>
+
+                <div class="information">
+                    <div class="information-container">
+                        <div class="information-item" style="flex: 1;">
+                            <label for="" style="display: block;">First Name</label>
+                            <input type="text" placeholder="First Name">
+                            <p>Minium of 6 charaters</p>
+                        </div>
+                        <div class="information-item" style="flex: 1;">
+                            <label for="" style="display: block;">Last Name</label>
+                            <input type="text" placeholder="Last Name">
+                            <p>Please fill out this field</p>
+                        </div>
+                    </div>
+
+                    <div class="information-container">
+                        <div class="information-item" style="flex: 1;">
+                            <label for="" style="display: block;">Date of Birth</label>
+                            <input style="border: 2px solid #ccc; " type="date"
+                                value="2023-03-05">
+                        </div>
+                        <div class="information-item" style="flex: 1;">
+                            <label for="" style="display: block;">Twitter
+                                Username</label>
+                            <div style="display: flex; border: 2px solid
+                                #ccc;border-radius: 4px;">
+                                <div style="flex: 1;width: 100%; border: 2px
+                                    solid #ccc; background-color: #d0cdcd;
+                                    text-align: center; color: rgb(0, 0, 0,
+                                    0.4);">@</div>
+                                <input style="flex: 25; border: none"
+                                    type="text" placeholder="Twitter Username">
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding-top: 10px;">
+                        <label for="" style="display: block;">Date Range Picker</label>
+                        <input style="border: 2px solid #ccc; " type="text"
+                            value="03/28/2017 - 04/06/2017">
+                    </div>
+
+                    <div style="padding-top: 15px;">
+                        <label for="" style="display: block;">Example textarea</label>
+                        <textarea style="border: 2px solid #ccc;width: 100%; " id="" name="" rows="4" cols="50">
+                        </textarea>
+                    </div>
+
+                    
+                </div>
+                <div style="display: flex;padding-top: 10px;">
+                    <input type="checkbox" style="width:max-content; margin-right: 5px;">
+                    <p style="flex: 1;" >I agree to terms and conditions</p>
+                </div>
+
+                <hr style="
+                height: 1px;
+                margin-top: 15px;
+                border: 0.5px solid #154275; opacity: 0.2;">
+                <button class="button">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
